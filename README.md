@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-UnderDev-red.svg) [![Donate](https://img.shields.io/badge/Donate-Buy%20Me%20a%20Coffee-yellow.svg)](https://www.buymeacoffee.com/TiagoPaulaSilva)
 
-The Electron Sheriff is a current meter with nano/micro/milli ampere auto-ranging measuring and bluetooth/micro SD-card data logging and real-time measurement visualization by local OLED display.
+The Electron Sheriff is a current meter with nano/micro/milli ampere auto-ranging measuring, bluetooth/micro SD-card data logging and real-time measurement visualization by local OLED display.
 
 ### Contributing
 0. Give this project a :star:
