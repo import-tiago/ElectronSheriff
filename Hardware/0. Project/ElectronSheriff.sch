@@ -8883,7 +8883,7 @@ Source: &lt;a href="http://aosmd.com/res/data_sheets/AO3400.pdf"&gt; Datasheet &
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k (1%)"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k (1%)"/>
 <part name="BT1" library="1053" deviceset="1053" device="" value="CR2450"/>
-<part name="U2" library="MAX4239AUT+" deviceset="MAX4239AUTT" device=""/>
+<part name="U2" library="MAX4239AUT+" deviceset="MAX4239AUTT" device="" value="MAX4239"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
 <part name="PE1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="PE" device="" value=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device="" value="3V"/>
@@ -9004,9 +9004,9 @@ Source: &lt;a href="http://aosmd.com/res/data_sheets/AO3400.pdf"&gt; Datasheet &
 <instance part="PE2" gate="M" x="245.11" y="76.2" smashed="yes">
 <attribute name="VALUE" x="242.57" y="73.66" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C1" gate="G$1" x="254" y="113.03" smashed="yes">
-<attribute name="NAME" x="255.524" y="113.411" size="1.778" layer="95"/>
-<attribute name="VALUE" x="255.524" y="108.331" size="1.778" layer="96"/>
+<instance part="C1" gate="G$1" x="234.95" y="113.03" smashed="yes">
+<attribute name="NAME" x="236.474" y="113.411" size="1.778" layer="95"/>
+<attribute name="VALUE" x="236.474" y="108.331" size="1.778" layer="96"/>
 </instance>
 <instance part="R7" gate="G$1" x="199.39" y="130.81" smashed="yes">
 <attribute name="NAME" x="196.85" y="132.3086" size="1.778" layer="95"/>
@@ -9037,8 +9037,8 @@ Source: &lt;a href="http://aosmd.com/res/data_sheets/AO3400.pdf"&gt; Datasheet &
 <attribute name="NAME" x="128.27" y="120.8786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="128.27" y="118.618" size="1.6764" layer="96"/>
 </instance>
-<instance part="PE5" gate="M" x="125.73" y="90.17" smashed="yes">
-<attribute name="VALUE" x="123.19" y="87.63" size="1.778" layer="96" rot="R90"/>
+<instance part="PE5" gate="M" x="125.73" y="76.2" smashed="yes">
+<attribute name="VALUE" x="123.19" y="73.66" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R9" gate="G$1" x="153.67" y="120.65" smashed="yes" rot="R90">
 <attribute name="NAME" x="156.21" y="120.8786" size="1.778" layer="95"/>
@@ -9185,7 +9185,7 @@ Source: &lt;a href="http://aosmd.com/res/data_sheets/AO3400.pdf"&gt; Datasheet &
 </segment>
 <segment>
 <pinref part="PE5" gate="M" pin="PE"/>
-<wire x1="125.73" y1="92.71" x2="125.73" y2="95.25" width="0.1524" layer="91"/>
+<wire x1="125.73" y1="78.74" x2="125.73" y2="95.25" width="0.1524" layer="91"/>
 <pinref part="X1" gate="-2" pin="KL"/>
 <wire x1="113.03" y1="95.25" x2="125.73" y2="95.25" width="0.1524" layer="91"/>
 <junction x="125.73" y="95.25"/>
@@ -9204,12 +9204,12 @@ Source: &lt;a href="http://aosmd.com/res/data_sheets/AO3400.pdf"&gt; Datasheet &
 <segment>
 <pinref part="U2" gate="A" pin="OUT"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="227.33" y1="128.27" x2="245.11" y2="128.27" width="0.1524" layer="91"/>
+<wire x1="227.33" y1="128.27" x2="234.95" y2="128.27" width="0.1524" layer="91"/>
+<wire x1="234.95" y1="128.27" x2="245.11" y2="128.27" width="0.1524" layer="91"/>
 <wire x1="245.11" y1="128.27" x2="245.11" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="254" y1="115.57" x2="254" y2="128.27" width="0.1524" layer="91"/>
-<wire x1="254" y1="128.27" x2="245.11" y2="128.27" width="0.1524" layer="91"/>
-<junction x="245.11" y="128.27"/>
+<wire x1="234.95" y1="115.57" x2="234.95" y2="128.27" width="0.1524" layer="91"/>
+<junction x="234.95" y="128.27"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -9224,15 +9224,16 @@ Source: &lt;a href="http://aosmd.com/res/data_sheets/AO3400.pdf"&gt; Datasheet &
 <pinref part="U2" gate="A" pin="IN-"/>
 <wire x1="209.55" y1="125.73" x2="207.01" y2="125.73" width="0.1524" layer="91"/>
 <wire x1="207.01" y1="125.73" x2="207.01" y2="95.25" width="0.1524" layer="91"/>
-<wire x1="207.01" y1="95.25" x2="245.11" y2="95.25" width="0.1524" layer="91"/>
+<wire x1="207.01" y1="95.25" x2="234.95" y2="95.25" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="234.95" y1="95.25" x2="245.11" y2="95.25" width="0.1524" layer="91"/>
 <wire x1="245.11" y1="95.25" x2="245.11" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="245.11" y1="91.44" x2="245.11" y2="95.25" width="0.1524" layer="91"/>
 <junction x="245.11" y="95.25"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="254" y1="107.95" x2="254" y2="95.25" width="0.1524" layer="91"/>
-<wire x1="254" y1="95.25" x2="245.11" y2="95.25" width="0.1524" layer="91"/>
+<wire x1="234.95" y1="107.95" x2="234.95" y2="95.25" width="0.1524" layer="91"/>
+<junction x="234.95" y="95.25"/>
 </segment>
 </net>
 <net name="N$6" class="0">
