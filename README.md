@@ -2,16 +2,16 @@
 
 ![Status](https://img.shields.io/badge/Status-UnderDev-red.svg) [![Donate](https://img.shields.io/badge/Donate-Buy%20Me%20a%20Coffee-yellow.svg)](https://www.buymeacoffee.com/TiagoPaulaSilva)
 
-The Electron Sheriff is a current meter with nano/micro/milli ampere auto-ranging measuring, bluetooth/micro SD-card data logging and real-time measurement visualization by local OLED display.
+Electron Sheriff is a current meter with nano/micro/milli ampere auto-ranging measuring, bluetooth/micro SD-card data logging and local OLED display.
 
 ### Contributing
 0. Give this project a :star:
-1. Create an issue and describe your idea
-2. [Fork it](https://github.com/TiagoPaulaSilva/ElectronSheriff/fork)
-3. Create your feature branch (`git checkout -b my-new-feature`)
-4. Commit your changes (`git commit -a -m "Added feature title"`)
-5. Publish the branch (`git push origin my-new-feature`)
-6. Create a new pull request
+1. Create an issue and describe your idea.
+2. [Fork it](https://github.com/TiagoPaulaSilva/ElectronSheriff/fork).
+3. Create your feature branch (`git checkout -b my-new-feature`).
+4. Commit your changes (`git commit -a -m "Added feature title"`).
+5. Publish the branch (`git push origin my-new-feature`).
+6. Create a new pull request.
 7. Done! :heavy_check_mark:
 
 ### License Information
