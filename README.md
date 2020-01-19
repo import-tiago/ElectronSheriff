@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-UnderDev-red.svg) [![Donate](https://img.shields.io/badge/Donate-Buy%20Me%20a%20Coffee-yellow.svg)](https://www.buymeacoffee.com/TiagoPaulaSilva)
 
-Electron Sheriff is a current meter with nano/micro/milli ampere auto-ranging measuring, bluetooth/micro SD-card data logging and local OLED display.
+ElectronSheriff is a high-side precision current meter featuring nano/micro/milli ampere autoranging, bluetooth/SD-card data logging and local OLED display.
 
 ### Contributing
 0. Give this project a :star:
