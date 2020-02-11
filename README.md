@@ -1,6 +1,6 @@
 # ElectronSheriff
 
-![Status](https://img.shields.io/badge/Status-UnderDev-red.svg) [![Donate](https://img.shields.io/badge/Donate-Buy%20Me%20a%20Coffee-yellow.svg)](https://www.buymeacoffee.com/TiagoPaulaSilva)
+[![Status](https://img.shields.io/badge/status-WIP-red)](https://github.com/TiagoPaulaSilva/ElectronSheriff)  [![Donate](https://img.shields.io/badge/Donate-Buy%20Me%20a%20Coffee-yellow.svg)](https://www.buymeacoffee.com/TiagoPaulaSilva)
 
 ElectronSheriff is a high-side precision current meter featuring nano/micro/milli ampere autoranging, bluetooth/SD-card data logging, local OLED display and USB connection.
 
